@@ -3,11 +3,11 @@
 .content1 {
   /* This is the parent of the activity 1 boxes. */
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   justify-items: center;
   grid-gap: 20px;
-  justify-items: center;
-  align-items: center;
+  justify-content: center;
+  align-content: center;
   size: 150px;
 }
 
@@ -51,7 +51,7 @@ img {
 .content2 {
   /* This is the parent of the activity 2 boxes. */
   justify-content: center;
-  align-items: center;
+  align-content: center;
 }
 
 .red2 {
@@ -83,8 +83,8 @@ img {
   /* This is the parent of the activity 3 boxes. */
   justify-content: center;
   align-content: center;
-  justify-items: center;
-  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 
 .red3 {
